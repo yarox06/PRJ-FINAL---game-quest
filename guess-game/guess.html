@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess game</title>
+    <link rel="stylesheet" href="./guess.css" />
+    <link rel="icon" href="./guess logo.jpg" type="image/x-icon">
+  </head>
+  <body>
+    <button class="hb"><a href="..">Home</a></button>
+    <nav class="card">
+      <h1>guess number from 1 to 100</h1>
+      <nav class="inpt">
+        <input class="int" type="number" min="1" max="100" />
+        <button onclick="checkgess ()" class="ch">check &#9863;</button>
+        <button style="display: none" class="cp">next time</button>
+      </nav>
+      <p></p>
+      <h6>you have <span>8</span> chances</h6>
+    </nav>
+  </body>
+  <script src="./guess.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
